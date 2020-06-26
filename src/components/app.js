@@ -1,8 +1,8 @@
 import React, { Component } from "react"
 import Header from "./header"
 import AboutFamily from "./about-family"
-import SimpleSlider from "./slider"
 import background from "../../static/assets/images/flowerbg.jpg"
+import SimpleSlider from "./slider"
 
 import "../style/slider.scss"
 
@@ -27,7 +27,7 @@ export default class Home extends Component {
               </div>
               <AboutFamily />
 
-
+              <SimpleSlider />
             </div>
 
           </div>
