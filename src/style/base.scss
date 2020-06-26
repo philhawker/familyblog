@@ -1,0 +1,12 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+body {
+    margin: 0px;
+    font-family: "Santorini", sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
