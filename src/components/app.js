@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Header from "./header"
+import About from './about'
 import SimpleSlider from "./slider"
 import background from "../../static/assets/images/flowerbg.jpg"
 
@@ -20,12 +21,12 @@ export default class Home extends Component {
         >
           <div className="wrap1" >
             <div className="wrap2">
-
-              <Header />
-
-
-
-
+              <div>
+                <Header />
+              </div>
+              <div id="home-about" className="home-about">
+                <About />
+              </div>
             </div>
           </div>
         </div>
