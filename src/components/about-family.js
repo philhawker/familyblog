@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Badge from "./badge"
+import SimpleSlider from "./slider"
 import rj from "../../static/assets/images/rj.jpg"
 import rjkids from "../../static/assets/images/rjkids.jpg"
 import julie from "../../static/assets/images/julie.png"
@@ -14,7 +15,8 @@ export default class AboutFamily extends Component {
     return (
       <div>
         <Badge />
-        <div id="home-optin" className="home-optin">
+        <div id="home-optin" className="home-optin" style={{ backgroundColor: "transparent" }}>
+          <SimpleSlider />
           <div className="wrap">
             <div className="fadeup-effect widget-full"></div>
           </div>
