@@ -16,7 +16,8 @@ export default class Home extends Component {
 
       <div className="home blog custom-background custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-visible front-page">
         <a href="/" className="to-top" title="Back To Top">Top</a>
-        <div className="site-container"  >
+        <div className="site-container"
+        >
           <div className="wrap1" >
             <div className="wrap2">
 

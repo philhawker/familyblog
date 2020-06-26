@@ -586,13 +586,14 @@ td {
 /* Site Containers
 --------------------------------------------- */
 .site-container {
-  margin: 2% auto 2%;
+  background-image: url(../../static/assets/images/flowerbg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .site-inner,
 .wrap {
   margin: 0 auto;
-  max-width: 1200px;
 }
 
 .wrap1 {
