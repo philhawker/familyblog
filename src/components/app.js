@@ -1,10 +1,11 @@
 import React, { Component } from "react"
 import Header from "./header"
-import About from './about'
+import AboutFamily from "./about-family"
 import SimpleSlider from "./slider"
 import background from "../../static/assets/images/flowerbg.jpg"
 
 import "../style/slider.scss"
+
 
 export default class Home extends Component {
   constructor(props) {
@@ -24,10 +25,11 @@ export default class Home extends Component {
               <div>
                 <Header />
               </div>
-              <div id="home-about" className="home-about">
-                <About />
-              </div>
+              <AboutFamily />
+
+
             </div>
+
           </div>
         </div>
       </div>
