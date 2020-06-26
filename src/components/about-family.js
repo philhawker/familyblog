@@ -14,9 +14,9 @@ export default class AboutFamily extends Component {
   render() {
     return (
       <div>
+        <SimpleSlider />
         <Badge />
         <div id="home-optin" className="home-optin" style={{ background: "rgb(250, 239, 238)", margin: "30px auto", padding: "20px" }}>
-          <SimpleSlider />
           <div className="wrap">
             <div className="fadeup-effect widget-full"></div>
           </div>
