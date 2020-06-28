@@ -24,8 +24,8 @@ export default class Home extends Component {
             <div className="wrap2">
               <Header />
               <AboutFamily />
-
               <SimpleSlider />
+
             </div>
 
           </div>

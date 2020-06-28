@@ -16,7 +16,7 @@ export default class AboutFamily extends Component {
       <div>
         <Badge />
 
-        <div id="home-flexible" className="home-flexible" style={{ height: "auto" }}>
+        <div id="home-flexible" className="home-flexible">
           <div className="wrap" >
             <div className="flexible-widgets widget-area fadeup-effect widget-thirds">
               <section id="text-3" className="widget widget_text">
@@ -94,7 +94,7 @@ export default class AboutFamily extends Component {
                   src="https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about.jpg"
                   className="image wp-image-684  attachment-full size-full" alt="" style={{ maxWidth: "100%", height: "auto" }}
                   // srcSet="https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about.jpg 1100w, https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about-300x300.jpg 300w, https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about-1024x1024.jpg 1024w, https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about-150x150.jpg 150w, https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about-768x768.jpg 768w, https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about-1080x1080.jpg 1080w, https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about-600x600.jpg 600w, https://hawkerfamily.com/wp-content/uploads/2019/01/sassafras-about-100x100.jpg 100w"
-                  src={julie}
+                  src={rj}
                   sizes="(max-width: 1100px) 100vw, 1100px" />
               </div>
             </section>
