@@ -22,9 +22,7 @@ export default class Home extends Component {
         >
           <div className="wrap1" >
             <div className="wrap2">
-              <div>
-                <Header />
-              </div>
+              <Header />
               <AboutFamily />
 
               <SimpleSlider />

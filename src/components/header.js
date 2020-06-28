@@ -58,7 +58,6 @@ export default class Header extends Component {
         </nav>
 
         {/* NAVBAR END */}
-        {/* <SimpleSlider /> */}
 
 
       </div>
