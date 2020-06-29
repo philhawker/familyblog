@@ -34,7 +34,7 @@ export default class Header extends Component {
 
         {/* NAVBAR START */}
         <nav className="nav-primary" aria-label="Main" itemScope="" itemType="https://schema.org/SiteNavigationElement">
-          <div className="wrap">
+          <div className="wrap" >
             <div className="responsive-menu-icon">
             </div>
             <ul id="menu-primary-menu-2" className="menu genesis-nav-menu menu-primary responsive-menu">
@@ -58,6 +58,7 @@ export default class Header extends Component {
         </nav>
 
         {/* NAVBAR END */}
+        {/* <SimpleSlider /> */}
 
 
       </div>
