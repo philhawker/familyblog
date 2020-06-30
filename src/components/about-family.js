@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Badge from "./badge"
+import { Badge } from "./badge"
 import SimpleSlider from "./slider"
 import rj from "../../static/assets/images/rj.jpg"
 import rjkids from "../../static/assets/images/rjkids.jpg"
@@ -14,8 +14,8 @@ export default class AboutFamily extends Component {
   render() {
     return (
       <div>
-        <Badge />
 
+        <Badge />
         <div id="home-flexible" className="home-flexible">
           <div className="wrap" >
             <div className="flexible-widgets widget-area fadeup-effect widget-thirds">
